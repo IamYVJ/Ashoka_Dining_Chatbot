@@ -2,7 +2,7 @@
 import PyPDF2 
 
 # creating a pdf file object 
-pdfFileObj = open('Dining_Menu\\Menu\ for\ 24th\ February\ \ to\ 01\ March\ 2020..pdf', 'rb') 
+pdfFileObj = open('Dining_Menu\Menu.pdf', 'rb') 
 
 # creating a pdf reader object 
 pdfReader = PyPDF2.PdfFileReader(pdfFileObj) 
