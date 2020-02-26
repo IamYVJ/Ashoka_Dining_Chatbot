@@ -1,0 +1,6 @@
+# Node js Modules
+node_modules/*
+
+# Temp Files
+session/*
+package-lock.json
