@@ -2,7 +2,8 @@
 import PyPDF2 
 
 # creating a pdf file object 
-pdfFileObj = open('Dining_Menu\Menu.pdf', 'rb') 
+# pdfFileObj = open('Dining_Menu\Menu.pdf', 'rb') 
+pdfFileObj = open('Dining_Menu\Combo_Menu.pdf', 'rb') 
 
 # creating a pdf reader object 
 pdfReader = PyPDF2.PdfFileReader(pdfFileObj) 

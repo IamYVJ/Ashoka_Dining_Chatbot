@@ -4,3 +4,6 @@ node_modules/*
 # Temp Files
 session/*
 package-lock.json
+
+#Temp File
+tempCodeRunnerFile.python

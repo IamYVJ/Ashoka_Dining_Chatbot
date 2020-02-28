@@ -1,0 +1,130 @@
+[
+    {
+        "extraction_method": "stream",
+        "top": 132.0,
+        "left": 71.0,
+        "width": 476.0,
+        "height": 326.0,
+        "right": 547.0,
+        "bottom": 458.0,
+        "data": [
+            [
+                {
+                    "top": 144.88,
+                    "left": 77.9,
+                    "width": 165.58999633789062,
+                    "height": 5.619999885559082,
+                    "text": "SOUTH INDIAN COMBOS"
+                }
+            ],
+            [
+                {
+                    "top": 169.73,
+                    "left": 77.9,
+                    "width": 252.3900146484375,
+                    "height": 5.610000133514404,
+                    "text": "CHICKEN CHETTINAD WITH RICE/ROTI"
+                }
+            ],
+            [
+                {
+                    "top": 194.57,
+                    "left": 77.9,
+                    "width": 359.07000732421875,
+                    "height": 5.610000133514404,
+                    "text": "DOSA (MASALA OR PLAIN) WITH SAMBAR AND CHUTNEY"
+                }
+            ],
+            [
+                {
+                    "top": 219.41,
+                    "left": 77.9,
+                    "width": 74.0199966430664,
+                    "height": 5.610000133514404,
+                    "text": "CURD RICE"
+                }
+            ],
+            [
+                {
+                    "top": 244.15,
+                    "left": 77.9,
+                    "width": 126.70999908447266,
+                    "height": 5.619999885559082,
+                    "text": "CHINESE COMBOS"
+                }
+            ],
+            [
+                {
+                    "top": 269.0,
+                    "left": 77.9,
+                    "width": 208.69000244140625,
+                    "height": 5.610000133514404,
+                    "text": "MANCHURIAN WITH FRIED RICE"
+                }
+            ],
+            [
+                {
+                    "top": 293.84,
+                    "left": 77.9,
+                    "width": 275.42999267578125,
+                    "height": 5.610000133514404,
+                    "text": "CHICKEN MANCHURIAN WITH FRIED RICE"
+                }
+            ],
+            [
+                {
+                    "top": 318.67,
+                    "left": 77.9,
+                    "width": 164.26998901367188,
+                    "height": 5.619999885559082,
+                    "text": "CONTINENTAL COMBOS"
+                }
+            ],
+            [
+                {
+                    "top": 343.52,
+                    "left": 72.5,
+                    "width": 208.57000732421875,
+                    "height": 5.610000133514404,
+                    "text": "VEGETABLE PASTA ARRABIATA"
+                }
+            ],
+            [
+                {
+                    "top": 368.24,
+                    "left": 77.9,
+                    "width": 187.92999267578125,
+                    "height": 5.610000133514404,
+                    "text": "CHICKEN PASTA ARRABIATA"
+                }
+            ],
+            [
+                {
+                    "top": 394.15,
+                    "left": 77.9,
+                    "width": 167.38999938964844,
+                    "height": 5.619999885559082,
+                    "text": "NORTH INDIAN COMBOS"
+                }
+            ],
+            [
+                {
+                    "top": 420.1,
+                    "left": 77.9,
+                    "width": 250.23001098632812,
+                    "height": 5.610000133514404,
+                    "text": "PANEER LABABDAAR WITH RICE / ROTI"
+                }
+            ],
+            [
+                {
+                    "top": 444.94,
+                    "left": 77.9,
+                    "width": 191.41000366210938,
+                    "height": 5.610000133514404,
+                    "text": "EGG CURRY WITH RICE / ROTI"
+                }
+            ]
+        ]
+    }
+]

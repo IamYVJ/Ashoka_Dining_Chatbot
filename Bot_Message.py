@@ -103,12 +103,14 @@ def getHelp():
         data = file.readlines()
         for i in data:
             print(i)
+        file.close()
 
 def getAbout():
     with open("About.txt", "r") as file:
         data = file.readlines()
         for i in data:
             print(i)
+        file.close()
 
 def searchMsg():
 
