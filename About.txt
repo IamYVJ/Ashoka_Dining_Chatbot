@@ -4,4 +4,5 @@ This is an automated ChatBot developed by ```Yashvardhan Jain```, UG 2021, Ashok
 The purpose of this was to devise a convinient way for people to access required information.
 Type _Help_ for the available list of commands.
 For any feedback or suggestions, please drop an email to _yashvardhan.jain_ug21@ashoka.edu.in_
+Thanks to ```Sai Khurana``` for helping to host this bot
 Thank you for using this ChatBot. Have a great day!
