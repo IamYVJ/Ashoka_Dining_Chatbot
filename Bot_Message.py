@@ -97,6 +97,8 @@ def searchMsg():
             getNextShuttle()
         elif re.search("full", query)!=None or re.search("all", query)!=None:
             getShuttle()
+        else:
+            getNextShuttle()
 # print(getJSON())
 # getMeal("snacks")
 # getNextShuttle()
