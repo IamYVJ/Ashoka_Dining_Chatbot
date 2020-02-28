@@ -16,7 +16,7 @@ def getMeal(n):
     today = date.today()
     print('_' + today.strftime("%A, %d %B %Y") + '_')
     data = getJSON("new.json")
-    print()
+    print("")
     print('*' + n.title() + ':*')
     print(data["dining_menu"][today.weekday()][0][n].title())
     
@@ -28,8 +28,8 @@ def getNextShuttle():
         weekday = "Weekends"
     hour = int(today.strftime("%H"))
     mint = int(today.strftime("%M"))
-    data = getJSON("Shuttle_Schedule\DELHI_Shuttle_Schedule.json")
-    print()
+    data = getJSON("DELHI_Shuttle_Schedule.json")
+    print("")
     print('*Campus To Metro:*')
     i = 0
     while i<27:
@@ -43,7 +43,7 @@ def getNextShuttle():
     while i<27:
         print(data[weekday]["C2M"][i])
         i+=1
-    print()
+    print("")
     print('*Metro To Campus:*')
     i = 0
     while i<27:
