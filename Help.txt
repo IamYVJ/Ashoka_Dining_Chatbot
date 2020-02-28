@@ -1,4 +1,4 @@
-[̲̅A][̲̅s][̲̅h][̲̅o][̲̅k][̲̅a] [̲̅C][̲̅h][̲̅a][̲̅t][̲̅B][̲̅o][̲̅t]
+*Ashoka ChatBot*
 
 _Need Help?_ You can ask the bot for numbers of Security, Admin, IT Help-Desk, Infirmary, Maintenance, Transport 
 _Hungry?_ You can ask the bot for the breakfast/lunch/snacks/dinner menu; yesterday/tomorrow also works! 

@@ -1,4 +1,4 @@
-*𝙰𝚜𝚑𝚘𝚔𝚊 𝙲𝚑𝚊𝚝𝙱𝚘𝚝*
+*Ashoka ChatBot*
 
 This is an automated ChatBot developed by 𝓨𝓪𝓼𝓱𝓿𝓪𝓻𝓭𝓱𝓪𝓷 𝓙𝓪𝓲𝓷, UG 2021, Ashoka University.
 The purpose of this was to devise a convinient way for people to access required information.
