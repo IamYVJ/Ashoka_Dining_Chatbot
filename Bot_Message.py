@@ -148,6 +148,11 @@ def searchMsg():
         getNumber("Chicago Pizza")
     elif re.search("amul", query)!=None:
         getNumber("Amul")
+    elif re.search("hi", query)!=None or re.search("hey", query)!=None or re.search("hello", query)!=None:
+        print("Hey! Hope you are having a great day.")
+        print("Type _Help_ for the available list of Commamnds")
+    else:
+        print("Sorry, Invalid Input! Type _Help_ for the available list of Commamnds")
 # print(getJSON())
 # getMeal("snacks")
 # getNextShuttle()
