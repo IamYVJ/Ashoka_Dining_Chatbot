@@ -34,10 +34,6 @@ def getNextShuttle():
     i = 0
     while i<27:
         if int(data[weekday]["C2M"][i][:2])>=hour:
-            # while i<27:
-            #     if int(data[weekday]["C2M"][i][3:])>=mint:
-            #         break
-            #     i+=1
             break
         i+=1
     while int(data[weekday]["C2M"][i][:2])==hour:
@@ -52,16 +48,34 @@ def getNextShuttle():
     i = 0
     while i<27:
         if int(data[weekday]["M2C"][i][:2])>=hour:
-            # while i<27:
-            #     if int(data[weekday]["M2C"][i][3:])>=mint:
-            #         break
-            #     i+=1
             break
         i+=1
     while int(data[weekday]["M2C"][i][:2])==hour:
         if int(data[weekday]["M2C"][i][3:])>=mint:
             break
         i+=1
+    while i<27:
+        print(data[weekday]["M2C"][i])
+        i+=1
+
+def getShuttle():
+    today = datetime.today()
+    print('_' + today.strftime("%A, %d %B %Y, %H:%M") + '_')
+    weekday = "Weekdays"
+    if today.weekday()>4:
+        weekday = "Weekends"
+    print("")
+    print("```" + weekday + " Schedule```")
+    data = getJSON("DELHI_Shuttle_Schedule.json")
+    print("")
+    print('*Campus To Metro:*')
+    i = 0
+    while i<27:
+        print(data[weekday]["C2M"][i])
+        i+=1
+    print("")
+    print('*Metro To Campus:*')
+    i = 0
     while i<27:
         print(data[weekday]["M2C"][i])
         i+=1
@@ -81,9 +95,10 @@ def searchMsg():
     elif re.search("shuttle", query)!=None:
         if re.search("next", query)!=None:
             getNextShuttle()
-        else:
-            getNextShuttle()
+        elif re.search("full", query)!=None or re.search("all", query)!=None:
+            getShuttle()
 # print(getJSON())
 # getMeal("snacks")
 # getNextShuttle()
+# getShuttle()
 searchMsg()
