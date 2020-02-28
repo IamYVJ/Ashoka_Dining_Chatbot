@@ -13,7 +13,10 @@ def getJSON(s):
     return(dining_menu)
     
 def getMeal(n):
-    today = date.today()
+    today = datetime.today()
+    hour = int(today.strftime("%H"))
+    if (n=="breakfast" and hour>=11) or (n=="lunch" and hour>=15) or (n=="snacks" and hour>=19) or (n=="dinner" and hour>=23):
+            today = today + datetime.timedelta(days=1)
     print('_' + today.strftime("%A, %d %B %Y") + '_')
     data = getJSON("new.json")
     print("")
