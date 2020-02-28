@@ -1,5 +1,4 @@
-[̲̅A][̲̅s][̲̅h][̲̅o][̲̅k][̲̅a] [̲̅C][̲̅h][̲̅a][̲̅t][̲̅B][̲̅o][̲̅t]
-𝕬𝖘𝖍𝖔𝖐𝖆 𝕮𝖍𝖆𝖙𝕭𝖔𝖙
+*𝙰𝚜𝚑𝚘𝚔𝚊 𝙲𝚑𝚊𝚝𝙱𝚘𝚝*
 
 This is an automated ChatBot developed by 𝓨𝓪𝓼𝓱𝓿𝓪𝓻𝓭𝓱𝓪𝓷 𝓙𝓪𝓲𝓷, UG 2021, Ashoka University.
 The purpose of this was to devise a convinient way for people to access required information.
