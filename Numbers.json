@@ -1,0 +1,50 @@
+{
+    "Security" : {
+        "Main-Gate 1 Landline (24x7)" : "013-0230-0151",
+        "Main-Gate 1 Mobile (24x7)" : "081999-77071",
+        "Main-Gate 2 Landline (24x7)" : "013-0230-0152",
+        "Main-Gate 2 Mobile (24x7)" : "081999-77072"
+    },
+    "Admin Help-Desk" : {
+        "Landline (09:30 to 18:00)" : "013-0230-0000",
+        "Mobile (09:30 to 18:00)" : "082229-30514"
+    },
+    "IT Help-Desk" : {
+        "Landline (08:00 to 20:00)" : "013-0230-0314",
+        "Mobile (08:00 to 20:00)" : "070820-00418"
+    },
+    "Infirmary" : {
+        "Landline (24x7)" : "013-0230-0550",
+        "Mobile (24x7)" : "081999-77073"
+    },
+    "Maintenance" : {
+        "Landline (24x7)" : "013-0230-0429",
+        "Mobile (24x7)" : "081999-77074"
+    },
+    "Housekeeping" : {
+        "Landline (09:30 to 18:00)" : "013-0230-0203",
+        "Mobile (24x7)" : "085869-22791"
+    },
+    "Transport" : {
+        "Landline (09:30 to 18:00)" : "013-0230-0201",
+        "Mobile (09:30 to 18:00)" : "082229-30501"
+    },
+    "Dhaba" : {
+        "Mobile" : "080594-10499"
+    },
+    "The Hunger Cycle" : {
+        "Mobile" : "081999-91183"
+    },
+    "Dosai" : {
+        "Mobile" : "099909-88835"
+    },
+    "Chicago Pizza" : {
+        "Mobile" : "083968-63518"
+    },
+    "Rasaananda" : {
+        "Mobile" : "098132-00745"
+    },
+    "Amul" : {
+        "Mobile" : "093548-31493"
+    }
+}

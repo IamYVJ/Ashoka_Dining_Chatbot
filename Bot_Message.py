@@ -80,6 +80,13 @@ def getShuttle():
         print(data[weekday]["M2C"][i])
         i+=1
 
+def getNumber(n):
+    data = getJSON("Numbers.json")
+    print("")
+    print('*' + n + ':*')
+    for i in data[n]:
+        print("_" + str(i) + "_: " + data[n][i])
+
 def searchMsg():
 
     query = str(sys.argv[1]).lower()
@@ -99,8 +106,35 @@ def searchMsg():
             getShuttle()
         else:
             getNextShuttle()
+    elif re.search("security", query)!=None:
+        getNumber("Security")
+    elif re.search("admin", query)!=None:
+        getNumber("Admin Help-Desk")
+    elif re.search("it help", query)!=None:
+        getNumber("IT Help-Desk")
+    elif re.search("infirmary", query)!=None:
+        getNumber("Infirmary")
+    elif re.search("maintenance", query)!=None:
+        getNumber("Maintenance")
+    elif re.search("housekeeping", query)!=None:
+        getNumber("Housekeeping")
+    elif re.search("transport", query)!=None:
+        getNumber("Transport")
+    elif re.search("dhaba", query)!=None:
+        getNumber("Dhaba")
+    elif re.search("rasaananda", query)!=None:
+        getNumber("Rasaananda")
+    elif re.search("hunger cycle", query)!=None or re.search("thc", query)!=None:
+        getNumber("The Hunger Cycle")
+    elif re.search("dosai", query)!=None:
+        getNumber("Dosai")
+    elif re.search("pizza", query)!=None:
+        getNumber("Chicago Pizza")
+    elif re.search("amul", query)!=None:
+        getNumber("Amul")
 # print(getJSON())
 # getMeal("snacks")
 # getNextShuttle()
 # getShuttle()
+# getNumber("Security")
 searchMsg()
