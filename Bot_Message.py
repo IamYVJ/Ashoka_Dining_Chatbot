@@ -34,10 +34,14 @@ def getNextShuttle():
     i = 0
     while i<27:
         if int(data[weekday]["C2M"][i][:2])>=hour:
-            while i<27:
-                if int(data[weekday]["C2M"][i][3:])>=mint:
-                    break
-                i+=1
+            # while i<27:
+            #     if int(data[weekday]["C2M"][i][3:])>=mint:
+            #         break
+            #     i+=1
+            break
+        i+=1
+    while int(data[weekday]["C2M"][i][:2])==hour:
+        if int(data[weekday]["C2M"][i][3:])>=mint:
             break
         i+=1
     while i<27:
@@ -48,10 +52,14 @@ def getNextShuttle():
     i = 0
     while i<27:
         if int(data[weekday]["M2C"][i][:2])>=hour:
-            while i<27:
-                if int(data[weekday]["M2C"][i][3:])>=mint:
-                    break
-                i+=1
+            # while i<27:
+            #     if int(data[weekday]["M2C"][i][3:])>=mint:
+            #         break
+            #     i+=1
+            break
+        i+=1
+    while int(data[weekday]["M2C"][i][:2])==hour:
+        if int(data[weekday]["M2C"][i][3:])>=mint:
             break
         i+=1
     while i<27:
@@ -77,5 +85,5 @@ def searchMsg():
             getNextShuttle()
 # print(getJSON())
 # getMeal("snacks")
-# getNextShuttle()
-searchMsg()
+getNextShuttle()
+# searchMsg()
