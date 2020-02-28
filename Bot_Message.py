@@ -12,6 +12,19 @@ def getJSON(s):
     dining_menu = json.load(dining_menu)
     return(dining_menu)
     
+def getTKS():
+    today = datetime.datetime.today()
+    print('_' + today.strftime("%A, %d %B %Y") + '_')
+    data = getJSON("TKS_Menu.json")
+    print("")   
+    print('*TKS Menu:*')
+    print("-----------------------")
+    for i in data:
+        print('_'+str(i).title()+'_')
+        for j in data[i]:
+            print(str(j).title())
+        print("-----------------------")
+
 def getDayMeal(m, d):
     today = datetime.datetime.today() + datetime.timedelta(days=d)
     print('_' + today.strftime("%A, %d %B %Y") + '_')
@@ -150,6 +163,9 @@ def searchMsg():
         else:
             getMeal("dinner")
 
+    elif re.search("tks", query)!=None or re.search("kitchen stories", query)!=None:
+        getTKS()
+
     elif re.search("shuttle", query)!=None:
         if re.search("next", query)!=None:
             getNextShuttle()
@@ -196,4 +212,5 @@ def searchMsg():
 # getShuttle()
 # getNumber("Security")
 # getHelp()
+# getTKS()
 searchMsg()
