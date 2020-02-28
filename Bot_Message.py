@@ -12,6 +12,14 @@ def getJSON(s):
     dining_menu = json.load(dining_menu)
     return(dining_menu)
     
+def getDayMeal(m, d):
+    today = datetime.today() + datetime.timedelta(days=d)
+    print('_' + today.strftime("%A, %d %B %Y") + '_')
+    data = getJSON("new.json")
+    print("")
+    print('*' + m.title() + ':*')
+    print(data["dining_menu"][today.weekday()][0][m].title())
+
 def getMeal(n):
     today = datetime.today()
     hour = int(today.strftime("%H"))
@@ -110,14 +118,28 @@ def searchMsg():
         getHelp()
     elif re.search("about", query)!=None:
         getAbout()
+
     elif re.search("breakfast", query)!=None:
-        getMeal("breakfast")
+        if re.search("tomorrow", query)!=None:
+            getDayMeal("breakfast", 1)
+        else:
+            getMeal("breakfast")
     elif re.search("lunch", query)!=None:
-        getMeal("lunch")
+        if re.search("tomorrow", query)!=None:
+            getDayMeal("lunch", 1)
+        else:
+            getMeal("lunch")
     elif re.search("snacks", query)!=None:
-        getMeal("snacks")
+        if re.search("tomorrow", query)!=None:
+            getDayMeal("snacks", 1)
+        else:
+            getMeal("snacks")
     elif re.search("dinner", query)!=None:
-        getMeal("dinner")
+        if re.search("tomorrow", query)!=None:
+            getDayMeal("dinner", 1)
+        else:
+            getMeal("dinner")
+
     elif re.search("shuttle", query)!=None:
         if re.search("next", query)!=None:
             getNextShuttle()
@@ -125,6 +147,7 @@ def searchMsg():
             getShuttle()
         else:
             getNextShuttle()
+
     elif re.search("security", query)!=None:
         getNumber("Security")
     elif re.search("admin", query)!=None:
@@ -151,6 +174,7 @@ def searchMsg():
         getNumber("Chicago Pizza")
     elif re.search("amul", query)!=None:
         getNumber("Amul")
+
     elif re.search("hi", query)!=None or re.search("hey", query)!=None or re.search("hello", query)!=None:
         print("Hey! Hope you are having a great day.")
         print("Type _Help_ for the available list of Commamnds")
