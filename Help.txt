@@ -1,6 +1,7 @@
 *Ashoka ChatBot*
 
 _Need Help?_ You can ask the bot for numbers of Security, Admin, IT Help-Desk, Infirmary, Maintenance, Transport 
-_Hungry?_ You can ask the bot for the breakfast/lunch/snacks/dinner menu. You can also ask the bot for numbers of Food Outlets on Campus
+_Hungry?_ You can ask the bot for the breakfast/lunch/snacks/dinner menu; yesterday/tomorrow also works! 
+_Tired of Mess Food?_ You can also ask the bot for numbers of Food Outlets on Campus
 _Want to catch a shuttle?_ You can ask the bot for the next shuttle or all shuttles on that day
 _What is this?_ Type About to find out!
