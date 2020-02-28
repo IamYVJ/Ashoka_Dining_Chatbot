@@ -85,5 +85,5 @@ def searchMsg():
             getNextShuttle()
 # print(getJSON())
 # getMeal("snacks")
-getNextShuttle()
-# searchMsg()
+# getNextShuttle()
+searchMsg()
