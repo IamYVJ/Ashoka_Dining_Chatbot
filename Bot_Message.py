@@ -87,11 +87,19 @@ def getNumber(n):
     for i in data[n]:
         print("_" + str(i) + "_: " + data[n][i])
 
+def getHelp():
+    with open("Help.txt", "r") as file:
+        data = file.readlines()
+        for i in data:
+            print(i)
+
 def searchMsg():
 
     query = str(sys.argv[1]).lower()
 
-    if re.search("breakfast", query)!=None:
+    if query=="help":
+        getHelp()
+    elif re.search("breakfast", query)!=None:
         getMeal("breakfast")
     elif re.search("lunch", query)!=None:
         getMeal("lunch")
@@ -137,4 +145,5 @@ def searchMsg():
 # getNextShuttle()
 # getShuttle()
 # getNumber("Security")
+# getHelp()
 searchMsg()
