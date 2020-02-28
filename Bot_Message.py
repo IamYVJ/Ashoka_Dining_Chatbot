@@ -1,7 +1,7 @@
 import sys
 import re
 import json
-from datetime import date, datetime
+import datetime
 # from pathlib import Path, PureWindowsPath
 
 def getJSON(s):
@@ -13,15 +13,15 @@ def getJSON(s):
     return(dining_menu)
     
 def getDayMeal(m, d):
-    today = datetime.today() + datetime.timedelta(days=d)
+    today = datetime.datetime.today() + datetime.timedelta(days=d)
     print('_' + today.strftime("%A, %d %B %Y") + '_')
     data = getJSON("new.json")
-    print("")
+    print("")   
     print('*' + m.title() + ':*')
     print(data["dining_menu"][today.weekday()][0][m].title())
 
 def getMeal(n):
-    today = datetime.today()
+    today = datetime.datetime.today()
     hour = int(today.strftime("%H"))
     if (n=="breakfast" and hour>=11) or (n=="lunch" and hour>=15) or (n=="snacks" and hour>=19) or (n=="dinner" and hour>=23):
             today = today + datetime.timedelta(days=1)
@@ -32,7 +32,7 @@ def getMeal(n):
     print(data["dining_menu"][today.weekday()][0][n].title())
     
 def getNextShuttle():
-    today = datetime.today()
+    today = datetime.datetime.today()
     print('_' + today.strftime("%A, %d %B %Y, %H:%M") + '_')
     weekday = "Weekdays"
     if today.weekday()>4:
@@ -70,7 +70,7 @@ def getNextShuttle():
         i+=1
 
 def getShuttle():
-    today = datetime.today()
+    today = datetime.datetime.today()
     print('_' + today.strftime("%A, %d %B %Y, %H:%M") + '_')
     weekday = "Weekdays"
     if today.weekday()>4:
@@ -120,23 +120,31 @@ def searchMsg():
         getAbout()
 
     elif re.search("breakfast", query)!=None:
-        if re.search("tomorrow", query)!=None:
+        if re.search("tomorrow", query)!=None or re.search("kal", query)!=None:
             getDayMeal("breakfast", 1)
+        elif re.search("yesterday", query)!=None:
+            getDayMeal("breakfast", -1)
         else:
             getMeal("breakfast")
     elif re.search("lunch", query)!=None:
-        if re.search("tomorrow", query)!=None:
+        if re.search("tomorrow", query)!=None or re.search("kal", query)!=None:
             getDayMeal("lunch", 1)
+        elif re.search("yesterday", query)!=None:
+            getDayMeal("lunch", -1)
         else:
             getMeal("lunch")
     elif re.search("snacks", query)!=None:
-        if re.search("tomorrow", query)!=None:
+        if re.search("tomorrow", query)!=None or re.search("kal", query)!=None:
             getDayMeal("snacks", 1)
+        elif re.search("yesterday", query)!=None:
+            getDayMeal("snacks", -1)
         else:
             getMeal("snacks")
     elif re.search("dinner", query)!=None:
-        if re.search("tomorrow", query)!=None:
+        if re.search("tomorrow", query)!=None or re.search("kal", query)!=None:
             getDayMeal("dinner", 1)
+        elif re.search("yesterday", query)!=None:
+            getDayMeal("dinner", -1)
         else:
             getMeal("dinner")
 
