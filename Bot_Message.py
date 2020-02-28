@@ -93,12 +93,20 @@ def getHelp():
         for i in data:
             print(i)
 
+def getAbout():
+    with open("About.txt", "r") as file:
+        data = file.readlines()
+        for i in data:
+            print(i)
+
 def searchMsg():
 
     query = str(sys.argv[1]).lower()
 
     if query=="help":
         getHelp()
+    elif re.search("about", query)!=None:
+        getAbout()
     elif re.search("breakfast", query)!=None:
         getMeal("breakfast")
     elif re.search("lunch", query)!=None:
