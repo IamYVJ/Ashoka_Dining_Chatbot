@@ -71,9 +71,12 @@ def getNextShuttle():
         if int(data[weekday]["C2M"][i][3:])>=mint:
             break
         i+=1
-    while i<27:
-        print(data[weekday]["C2M"][i])
-        i+=1
+    if i==27:
+        print("Sorry! No more shuttles scheduled for today!")
+    else:
+        while i<27:
+            print(data[weekday]["C2M"][i])
+            i+=1
     print("")
     print('*Metro To Campus:*')
     i = 0
@@ -85,9 +88,12 @@ def getNextShuttle():
         if int(data[weekday]["M2C"][i][3:])>=mint:
             break
         i+=1
-    while i<27:
-        print(data[weekday]["M2C"][i])
-        i+=1
+    if i==27:
+        print("Sorry! No more shuttles scheduled for today!")
+    else:
+        while i<27:
+            print(data[weekday]["M2C"][i])
+            i+=1
 
 def getShuttle():
     today = datetime.datetime.today()
