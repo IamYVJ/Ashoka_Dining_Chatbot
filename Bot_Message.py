@@ -12,6 +12,13 @@ def getJSON(s):
     dining_menu = json.load(dining_menu)
     return(dining_menu)
     
+def getFoodOutlets():
+    data = getJSON("Food_Outlets.json") 
+    print('*Food Outlets:*')
+    print("")
+    for i in data:
+        print('_'+str(i).title()+'_')  
+
 def getTKS():
     today = datetime.datetime.today()
     print('_' + today.strftime("%A, %d %B %Y") + '_')
@@ -200,6 +207,9 @@ def searchMsg():
         getNumber("Chicago Pizza")
     elif re.search("amul", query)!=None:
         getNumber("Amul")
+
+    elif re.search("food outlet", query)!=None:
+        getFoodOutlets()
 
     elif re.search("hi", query)!=None or re.search("hey", query)!=None or re.search("hello", query)!=None:
         print("Hey! Hope you are having a great day.")
