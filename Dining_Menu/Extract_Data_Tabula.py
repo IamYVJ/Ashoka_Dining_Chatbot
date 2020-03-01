@@ -12,5 +12,5 @@ def CM():
     # print(df)
     tabula.convert_into("Dining_Menu\Combo_Menu.pdf", "Dining_Menu\Combo_output.json", output_format="json", pages='all')
 
-# DM()
-CM()
+DM()
+# CM()

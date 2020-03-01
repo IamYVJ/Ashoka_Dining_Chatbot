@@ -28,34 +28,8 @@ for i in range(4,11):
             "lunch":getData(data[i][2]),
             "snacks":getData(data[i][3]),
             "dinner":getData(data[i][4])}]
-    # for j in data[i][1:]:
-    #     # ss = str(j)
-    #     # p1 = ss.find("text")
-    #     # ss = ss[p1+8:-2]
-    #     # ss = ss.replace('\\r', '\n')
-    #     # ss = ss.replace(',', '')
-    #     # ss = ss.replace('\'', '\"')
-    #     print(ss)
-    #     print("---------------")
-    #     data1.append(ss)
-    # print(data1)
     day.append(data1)
 day = {"dining_menu" : day}
-# print(day)
-# data = {}.append(day)
-# print(data)
 
-# data2 = str(day)
-# data2 = data2[1:-1]
 with open('new1.json','w+') as new:
-    # new.write(json.dumps(data2))
     new.write(json.dumps(day))
-    # day = []
-    # for i in data:
-    #     ss = str(i)
-    #     p1 = ss.find("text")
-    #     ss = ss[p1+8:-2]
-    #     ss = ss.replace('\\r', '\n')
-    #     print(ss)
-    #     print("---------------")
-    #     # day.append(ss)
