@@ -69,7 +69,7 @@ def getMeal(m):
         print(" _(19:30-22:30)_:")
     else:
         print(":")
-    print(data["dining_menu"][today.weekday()][0][n].title())
+    print(data["dining_menu"][today.weekday()][0][m].title())
     
 def getNextShuttle():
     today = datetime.datetime.today()
