@@ -37,18 +37,38 @@ def getDayMeal(m, d):
     print('_' + today.strftime("%A, %d %B %Y") + '_')
     data = getJSON("new.json")
     print("")   
-    print('*' + m.title() + ':*')
+    print('*' + m.title() + '*', end = "")
+    if m=='breakfast':
+        print(" _(08:00-10:30)_:")
+    elif m=='lunch':
+        print(" _(12:30-14:30)_:")
+    elif m=='snacks':
+        print(" _(16:45-18:15)_:")
+    elif m=='dinner':
+        print(" _(19:30-22:30)_:")
+    else:
+        print(":")
     print(data["dining_menu"][today.weekday()][0][m].title())
 
-def getMeal(n):
+def getMeal(m):
     today = datetime.datetime.today()
     hour = int(today.strftime("%H"))
-    if (n=="breakfast" and hour>=11) or (n=="lunch" and hour>=15) or (n=="snacks" and hour>=19) or (n=="dinner" and hour>=23):
+    if (m=="breakfast" and hour>=11) or (m=="lunch" and hour>=15) or (m=="snacks" and hour>=19) or (m=="dinner" and hour>=23):
             today = today + datetime.timedelta(days=1)
     print('_' + today.strftime("%A, %d %B %Y") + '_')
     data = getJSON("new.json")
     print("")
-    print('*' + n.title() + ':*')
+    print('*' + m.title() + '*', end = "")
+    if m=='breakfast':
+        print(" _(08:00-10:30)_:")
+    elif m=='lunch':
+        print(" _(12:30-14:30)_:")
+    elif m=='snacks':
+        print(" _(16:45-18:15)_:")
+    elif m=='dinner':
+        print(" _(19:30-22:30)_:")
+    else:
+        print(":")
     print(data["dining_menu"][today.weekday()][0][n].title())
     
 def getNextShuttle():
