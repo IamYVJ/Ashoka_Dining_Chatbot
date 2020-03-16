@@ -23,7 +23,7 @@ def getData(data):
 
 data = getJSON()
 day = []
-for i in range(4,11):
+for i in range(2,9):
     data1 = [{"breakfast": getData(data[i][1]),
             "lunch":getData(data[i][2]),
             "snacks":getData(data[i][3]),

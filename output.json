@@ -1,152 +1,150 @@
 [
     {
         "extraction_method": "lattice",
-        "top": 126.4878,
-        "left": 42.48645,
-        "width": 510.69140625,
-        "height": 663.4248046875,
-        "right": 553.17786,
-        "bottom": 789.9126,
+        "top": 105.059975,
+        "left": 37.95297,
+        "width": 519.784912109375,
+        "height": 663.0760498046875,
+        "right": 557.73785,
+        "bottom": 768.13605,
         "data": [
-            [],
-            [],
             [
                 {
-                    "top": 126.4878,
-                    "left": 42.48645,
-                    "width": 0.7368812561035156,
-                    "height": 10.217887878417969,
+                    "top": 105.059975,
+                    "left": 37.95297,
+                    "width": 0.7103652954101562,
+                    "height": 9.839996337890625,
                     "text": ""
                 },
                 {
-                    "top": 126.4878,
-                    "left": 43.22333,
-                    "width": 42.772647857666016,
-                    "height": 10.217887878417969,
+                    "top": 105.059975,
+                    "left": 38.663334,
+                    "width": 41.340145111083984,
+                    "height": 9.839996337890625,
                     "text": "Meals"
                 },
                 {
-                    "top": 126.4878,
-                    "left": 85.99598,
-                    "width": 97.8940200805664,
-                    "height": 10.217887878417969,
+                    "top": 105.059975,
+                    "left": 80.00348,
+                    "width": 98.66650390625,
+                    "height": 9.839996337890625,
                     "text": "BREAKFAST"
                 },
                 {
-                    "top": 126.4878,
-                    "left": 183.89,
-                    "width": 150.86000061035156,
-                    "height": 10.217887878417969,
+                    "top": 105.059975,
+                    "left": 178.66998,
+                    "width": 146.05999755859375,
+                    "height": 9.839996337890625,
                     "text": "LUNCH"
                 },
                 {
-                    "top": 126.4878,
-                    "left": 334.75,
-                    "width": 95.6400146484375,
-                    "height": 10.217887878417969,
+                    "top": 105.059975,
+                    "left": 324.72998,
+                    "width": 102.36001586914062,
+                    "height": 9.839996337890625,
                     "text": "SNACKS"
                 },
                 {
-                    "top": 126.4878,
-                    "left": 430.39,
-                    "width": 121.838623046875,
-                    "height": 10.217887878417969,
+                    "top": 105.059975,
+                    "left": 427.09,
+                    "width": 129.72488403320312,
+                    "height": 9.839996337890625,
                     "text": "DINNER"
                 },
                 {
-                    "top": 126.4878,
-                    "left": 552.22864,
-                    "width": 0.94921875,
-                    "height": 10.217887878417969,
+                    "top": 105.059975,
+                    "left": 556.8149,
+                    "width": 0.9229736328125,
+                    "height": 9.839996337890625,
                     "text": ""
                 }
             ],
             [
                 {
-                    "top": 136.70569,
-                    "left": 42.48645,
-                    "width": 0.7368812561035156,
-                    "height": 10.409881591796875,
+                    "top": 114.89997,
+                    "left": 37.95297,
+                    "width": 0.7103652954101562,
+                    "height": 10.029762268066406,
                     "text": ""
                 },
                 {
-                    "top": 136.70569,
-                    "left": 43.22333,
-                    "width": 42.772647857666016,
-                    "height": 10.409881591796875,
+                    "top": 114.89997,
+                    "left": 38.663334,
+                    "width": 41.340145111083984,
+                    "height": 10.029762268066406,
                     "text": "Timing"
                 },
                 {
-                    "top": 136.70569,
-                    "left": 85.99598,
-                    "width": 97.8940200805664,
-                    "height": 10.409881591796875,
+                    "top": 114.89997,
+                    "left": 80.00348,
+                    "width": 98.66650390625,
+                    "height": 10.029762268066406,
                     "text": "08:00 AM - 10:30 AM"
                 },
                 {
-                    "top": 136.70569,
-                    "left": 183.89,
-                    "width": 150.86000061035156,
-                    "height": 10.409881591796875,
+                    "top": 114.89997,
+                    "left": 178.66998,
+                    "width": 146.05999755859375,
+                    "height": 10.029762268066406,
                     "text": "12:15 PM - 02:30 PM"
                 },
                 {
-                    "top": 136.70569,
-                    "left": 334.75,
-                    "width": 95.6400146484375,
-                    "height": 10.409881591796875,
+                    "top": 114.89997,
+                    "left": 324.72998,
+                    "width": 102.36001586914062,
+                    "height": 10.029762268066406,
                     "text": "04:45 PM - 06:15 PM"
                 },
                 {
-                    "top": 136.70569,
-                    "left": 430.39,
-                    "width": 121.838623046875,
-                    "height": 10.409881591796875,
+                    "top": 114.89997,
+                    "left": 427.09,
+                    "width": 129.72488403320312,
+                    "height": 10.029762268066406,
                     "text": "07:30 PM - 10:15 PM"
                 },
                 {
-                    "top": 136.70569,
-                    "left": 552.22864,
-                    "width": 0.94921875,
-                    "height": 10.409881591796875,
+                    "top": 114.89997,
+                    "left": 556.8149,
+                    "width": 0.9229736328125,
+                    "height": 10.029762268066406,
                     "text": ""
                 }
             ],
             [
                 {
-                    "top": 147.11557,
-                    "left": 42.48645,
-                    "width": 43.50952911376953,
-                    "height": 91.62457275390625,
+                    "top": 124.92973,
+                    "left": 37.95297,
+                    "width": 42.05051040649414,
+                    "height": 88.39215087890625,
                     "text": "M\rO\rN\rD\rA\rY"
                 },
                 {
-                    "top": 147.11557,
-                    "left": 85.99598,
-                    "width": 97.8940200805664,
-                    "height": 91.62457275390625,
-                    "text": "CORN FLAKES\rEGG BHURJI\rVADA SAMBHAR\rCOCONUT CHUTNEY\rBREAD, BUTTER, JAM\rCUT PAPAYA, BANANA\rMILK- HOT \u0026 COLD, TEA\rCOFFEE, PORRIDGE\rBOURNVITA"
+                    "top": 124.92973,
+                    "left": 80.00348,
+                    "width": 98.66650390625,
+                    "height": 88.39215087890625,
+                    "text": "CHOCOS\rBOILED EGG\rPLAIN PARANTHA\rBHAJI, FRIED CHILLI\rBREAD, BUTTER, JAM\rAPPLE, BANANA\rMILK- HOT \u0026 COLD, TEA\rCOFFEE, PORRIDGE\rBOURNVITA"
                 },
                 {
-                    "top": 147.11557,
-                    "left": 183.89,
-                    "width": 150.86000061035156,
-                    "height": 91.62457275390625,
-                    "text": "GREEN SALAD\rLACHHA ONION\rMUTTON ROGAN JOSH\rPANEER LABABDAAR\rBLACK MALKA DAL\rPLAIN RICE\rTAWA ROTI\rACHAR, PAPAD"
+                    "top": 124.92973,
+                    "left": 178.66998,
+                    "width": 146.05999755859375,
+                    "height": 88.39215087890625,
+                    "text": "GREEN SALAD\rGREEK SALAD\rPUNJABI CHICKEN CURRY\rSHAHI PANEER\rBLACK MASOOR\rPLAIN RICE\rTAWA ROTI\rJAGGERY, ACHAR, PAPAD"
                 },
                 {
-                    "top": 147.11557,
-                    "left": 334.75,
-                    "width": 95.6400146484375,
-                    "height": 91.62457275390625,
-                    "text": "MAGGI\rTEA, COFFEE"
+                    "top": 124.92973,
+                    "left": 324.72998,
+                    "width": 102.36001586914062,
+                    "height": 88.39215087890625,
+                    "text": "CHOCOLATE BROWNIE\rTEA, COFFEE"
                 },
                 {
-                    "top": 147.11557,
-                    "left": 430.39,
-                    "width": 121.838623046875,
-                    "height": 91.62457275390625,
-                    "text": "GREEN SALAD\rSPROUTS SALAD\rMALAI KOFTA\rMIX VEG\rDAL PANCHEMELA\rVEG PULAO\rTAWA ROTI\rJAGGERY, ACHAR\rGULAB JAMUN"
+                    "top": 124.92973,
+                    "left": 427.09,
+                    "width": 129.72488403320312,
+                    "height": 88.39215087890625,
+                    "text": "GREEN SALAD\rALOO CHANA CHAAT\rMIX VEG\rNADRU KOFTA CURRY\rYELLOW DAL TADKA\rPLAIN RICE\rTAWA ROTI\rJAGGERY, ACHAR\rCHILLED KHEER"
                 },
                 {
                     "top": 0.0,
@@ -165,39 +163,39 @@
             ],
             [
                 {
-                    "top": 238.74014,
-                    "left": 42.48645,
-                    "width": 43.50952911376953,
-                    "height": 91.8280029296875,
+                    "top": 213.32188,
+                    "left": 37.95297,
+                    "width": 42.05051040649414,
+                    "height": 98.42808532714844,
                     "text": "T\rU\rE\rS\rD\rA\rY"
                 },
                 {
-                    "top": 238.74014,
-                    "left": 85.99598,
-                    "width": 97.8940200805664,
-                    "height": 91.8280029296875,
-                    "text": "CHOCOS\rBOILED EGG\rLUCHI\rDRY ALOO MASALA\rBREAD, BUTTER, JAM\rKINOO, BANANA\rMILK- HOT \u0026 COLD, TEA\rCOFFEE, PORRIDGE\rBOURNVITA"
+                    "top": 213.32188,
+                    "left": 80.00348,
+                    "width": 98.66650390625,
+                    "height": 98.42808532714844,
+                    "text": "MUESLI\rEGG BHURJI\rUTTAPAM\rSAMBAR\rCOCONUT CHUTNEY\rBREAD, BUTTER, JAM\rCUT PAPAYA, BANANA\rMILK- HOT \u0026 COLD, TEA\rCOFFEE, PORRIDGE\rBOURNVITA"
                 },
                 {
-                    "top": 238.74014,
-                    "left": 183.89,
-                    "width": 150.86000061035156,
-                    "height": 91.8280029296875,
-                    "text": "GREEN SALAD\rONION CABBAGE SALAD\rVEG KOHLAPURI\rDAL BALTIK\rBATTATA RASSA BAAJI\rPLAIN RICE\rTAWA ROTI\rACHAR, PAPAD\rFRUIT CUSTARD"
+                    "top": 213.32188,
+                    "left": 178.66998,
+                    "width": 146.05999755859375,
+                    "height": 98.42808532714844,
+                    "text": "GREEN SALAD\rTHAI CUCUMBER SALAD\rGOBHI ADRAKI\rHOMESTYLE ALOO MATAR\rDAL MAKHANI\rPULAO\rTAWA ROTI\rJAGGERY, ACHAR, PAPAD\rGULAB JAMUN"
                 },
                 {
-                    "top": 238.74014,
-                    "left": 334.75,
-                    "width": 95.6400146484375,
-                    "height": 91.8280029296875,
-                    "text": "SWISS ROLL\rTEA, COFFEE"
+                    "top": 213.32188,
+                    "left": 324.72998,
+                    "width": 102.36001586914062,
+                    "height": 98.42808532714844,
+                    "text": "BREAD PAKODA\rTEA, COFFEE"
                 },
                 {
-                    "top": 238.74014,
-                    "left": 430.39,
-                    "width": 121.838623046875,
-                    "height": 91.8280029296875,
-                    "text": "GREEN SALAD\rTOMATO SALAD\rHOMESTYLE MACARONI\rDAL MAKHANI\rDUM ALOO\rPLAIN  RICE\rTAWA ROTI\rJAGGERY, ACHAR"
+                    "top": 213.32188,
+                    "left": 427.09,
+                    "width": 129.72488403320312,
+                    "height": 98.42808532714844,
+                    "text": "GREEN SALAD\rTOMATO SALAD\rGAJAR MATAR KI LONGE\rPAPAD MANGODI KI SABZI\rGREEN MOONG DAL\rPLAIN RICE\rTAWA ROTI\rJAGGERY, ACHAR"
                 },
                 {
                     "top": 0.0,
@@ -216,39 +214,39 @@
             ],
             [
                 {
-                    "top": 330.56815,
-                    "left": 42.48645,
-                    "width": 43.50952911376953,
-                    "height": 91.79876708984375,
+                    "top": 311.74997,
+                    "left": 37.95297,
+                    "width": 42.05051040649414,
+                    "height": 88.558837890625,
                     "text": "W\rE\rD\rN\rE\rS\rD\rA\rY"
                 },
                 {
-                    "top": 330.56815,
-                    "left": 85.99598,
-                    "width": 97.8940200805664,
-                    "height": 91.79876708984375,
-                    "text": "HONEY FLAKES ALMOND\rMASALA OMELETTE\rVEGETABLE POHA\rMINT CHUTNEY\rBREAD, BUTTER, JAM\rCUT SARDA, BANANA\rMILK- HOT \u0026 COLD, TEA\rCOFFEE, PORRIDGE\rBOURNVITA"
+                    "top": 311.74997,
+                    "left": 80.00348,
+                    "width": 98.66650390625,
+                    "height": 88.558837890625,
+                    "text": "CORN FLAKES\rSCRAMBLED EGG\rKULCHA\rMATARA\rBREAD, BUTTER, JAM\rKINOO, BANANA\rMILK- HOT \u0026 COLD, TEA\rCOFFEE, PORRIDGE\rBOURNVITA"
                 },
                 {
-                    "top": 330.56815,
-                    "left": 183.89,
-                    "width": 150.86000061035156,
-                    "height": 91.79876708984375,
-                    "text": "GREEN SALAD\rCHANA CHAAT\rCHICKEN CHETTINAD\rMATAR PANEER\rRED MALKA DAL\rPLAIN RICE\rTAWA ROTI\rACHAR, PAPAD"
+                    "top": 311.74997,
+                    "left": 178.66998,
+                    "width": 146.05999755859375,
+                    "height": 88.558837890625,
+                    "text": "GREEN SALAD\rMASALA CHAACH\rEGG CURRY\rKADHAI PANEER\rRED MALKA DAL\rPLAIN RICE\rTAWA ROTI\rJAGGERY, ACHAR, PAPAD"
                 },
                 {
-                    "top": 330.56815,
-                    "left": 334.75,
-                    "width": 95.6400146484375,
-                    "height": 91.79876708984375,
-                    "text": "DAHI BHALLE\rTEA, COFFEE"
+                    "top": 311.74997,
+                    "left": 324.72998,
+                    "width": 102.36001586914062,
+                    "height": 88.558837890625,
+                    "text": "STRAWBERRY SWISS ROLL\rTEA, COFFEE"
                 },
                 {
-                    "top": 330.56815,
-                    "left": 430.39,
-                    "width": 121.838623046875,
-                    "height": 91.79876708984375,
-                    "text": "GREEN SALAD\rKOSAMBARI SALAD\rRASAM\rAVIYAL\rCABBAGE FOGATH\rLEMON RICE\rTAWA ROTI\rPAYASAM\rJAGGERY, ACHAR"
+                    "top": 311.74997,
+                    "left": 427.09,
+                    "width": 129.72488403320312,
+                    "height": 88.558837890625,
+                    "text": "GREEN SALAD\rCHANA CHAAT\rSAUTE BEANS\rSHAAM SAVERA\rAMRITSARI CHOLE\rPLAIN RICE\rTAWA ROTI\rJAGGERY, ACHAR\rBESAN BURFI"
                 },
                 {
                     "top": 0.0,
@@ -267,39 +265,39 @@
             ],
             [
                 {
-                    "top": 422.3669,
-                    "left": 42.48645,
-                    "width": 43.50952911376953,
-                    "height": 91.82315063476562,
+                    "top": 400.3088,
+                    "left": 37.95297,
+                    "width": 42.05051040649414,
+                    "height": 88.58120727539062,
                     "text": "T\rH\rU\rR\rS\rD\rA\rY"
                 },
                 {
-                    "top": 422.3669,
-                    "left": 85.99598,
-                    "width": 97.8940200805664,
-                    "height": 91.82315063476562,
-                    "text": "MUESLI\rSCRAMBLED EGG\rMIX PARANTHA\rCURD\rBREAD, BUTTER, JAM\rAPPLE, BANANA\rMILK- HOT \u0026 COLD, TEA\rCOFFEE, PORRIDGE\rBOURNVITA"
+                    "top": 400.3088,
+                    "left": 80.00348,
+                    "width": 98.66650390625,
+                    "height": 88.58120727539062,
+                    "text": "HONEY FLAKES\rEGG BHURJI\rBESAN CHILLA\rMINT CHUTNEY\rBREAD, BUTTER, JAM\rMIX FRUIT, BANANA\rMILK- HOT \u0026 COLD, TEA\rCOFFEE, PORRIDGE\rBOURNVITA"
                 },
                 {
-                    "top": 422.3669,
-                    "left": 183.89,
-                    "width": 150.86000061035156,
-                    "height": 91.82315063476562,
-                    "text": "GREEN SALAD\rSPROUTS SALAD\rRAJMA MASALA\rDIWANI HANDI\rBAGARE BAIGAN\rJEERA RICE\rTAWA ROTI\rACHAR, PAPAD\rBESAN BARFI"
+                    "top": 400.3088,
+                    "left": 178.66998,
+                    "width": 146.05999755859375,
+                    "height": 88.58120727539062,
+                    "text": "GREEN SALAD\rSPROUTS SALAD\rHOMESTYLE MACARONI\rSOYA MATAR\rSINDHI KADHI\rPLAIN RICE\rTAWA ROTI\rJAGGERY, ACHAR, PAPAD\rSUZI HALWA"
                 },
                 {
-                    "top": 422.3669,
-                    "left": 334.75,
-                    "width": 95.6400146484375,
-                    "height": 91.82315063476562,
-                    "text": "MASALA IDLI\rTEA, COFFEE"
+                    "top": 400.3088,
+                    "left": 324.72998,
+                    "width": 102.36001586914062,
+                    "height": 88.58120727539062,
+                    "text": "DAHI BHALLA\rTEA, COFFEE"
                 },
                 {
-                    "top": 422.3669,
-                    "left": 430.39,
-                    "width": 121.838623046875,
-                    "height": 91.82315063476562,
-                    "text": "GREEN SALAD\rTHREE BEAN SALAD\rPALAK CORN MASALA\rPASTA ALFREDO\rYELLOW DAL TADKA\rPLAIN  RICE\rTAWA ROTI\rJAGGERY, ACHAR"
+                    "top": 400.3088,
+                    "left": 427.09,
+                    "width": 129.72488403320312,
+                    "height": 88.58120727539062,
+                    "text": "GREEN SALAD\rCHEF CHOICE SALAD\rCORN CAPSICUM\rVEGETABLE KORMA\rDAL BUKHARA\rPLAIN RICE\rTAWA ROTI\rJAGGERY, ACHAR"
                 },
                 {
                     "top": 0.0,
@@ -318,39 +316,39 @@
             ],
             [
                 {
-                    "top": 514.19006,
-                    "left": 42.48645,
-                    "width": 43.50952911376953,
-                    "height": 91.82806396484375,
+                    "top": 488.89,
+                    "left": 37.95297,
+                    "width": 42.05051040649414,
+                    "height": 88.5618896484375,
                     "text": "F\rR\rI\rD\rA\rY"
                 },
                 {
-                    "top": 514.19006,
-                    "left": 85.99598,
-                    "width": 97.8940200805664,
-                    "height": 91.82806396484375,
-                    "text": "CORN FLAKES\rEGG FRITTATA\rUTTAPAM  SAMBHAR\rTOMATO CHUTNEY\rBREAD, BUTTER, JAM\rMIX FRUIT, BANANA\rMILK- HOT \u0026 COLD, TEA\rCOFFEE, PORRIDGE\rBOURNVITA"
+                    "top": 488.89,
+                    "left": 80.00348,
+                    "width": 98.66650390625,
+                    "height": 88.5618896484375,
+                    "text": "CHOCOS\rBOILED EGG\rSTUFFED PARATHA\rPICKLE, CURD\rBREAD, BUTTER, JAM\rAPPLE, BANANA\rMILK- HOT \u0026 COLD, TEA\rCOFFEE, PORRIDGE\rBOURNVITA"
                 },
                 {
-                    "top": 514.19006,
-                    "left": 183.89,
-                    "width": 150.86000061035156,
-                    "height": 91.82806396484375,
-                    "text": "GREEN SALAD\rCUCUMBER SALAD\rSOYA BADI MATAR\rLAUKI KOFTA CURRY\rDAL HYDERABADI\rPLAIN RICE\rTAWA ROTI\rACHAR, PAPAD"
+                    "top": 488.89,
+                    "left": 178.66998,
+                    "width": 146.05999755859375,
+                    "height": 88.5618896484375,
+                    "text": "GREEN SALAD\rRUSSIAN SALAD\rCABBAGE CHANA MASALA\rSEV TAMATAR\rDAL MAHARANI\rPLAIN RICE\rTAWA ROTI\rJAGGERY, ACHAR, PAPAD"
                 },
                 {
-                    "top": 514.19006,
-                    "left": 334.75,
-                    "width": 95.6400146484375,
-                    "height": 91.82806396484375,
-                    "text": "PIZZA\rTEA, COFFEE"
+                    "top": 488.89,
+                    "left": 324.72998,
+                    "width": 102.36001586914062,
+                    "height": 88.5618896484375,
+                    "text": "APPLE PIE\rTEA, COFFEE"
                 },
                 {
-                    "top": 514.19006,
-                    "left": 430.39,
-                    "width": 121.838623046875,
-                    "height": 91.82806396484375,
-                    "text": "GREEN SALAD\rTOSSED SALAD\rMUSHROOM MATAR\rGOBHI ADARKI\rDAL TADKA\rPLAIN  RICE\rTAWA ROTI\rJAGGERY, ACHAR\rCOCONUT LADOO"
+                    "top": 488.89,
+                    "left": 427.09,
+                    "width": 129.72488403320312,
+                    "height": 88.5618896484375,
+                    "text": "GREEN SALAD\rLAUKI RAITA\rVEGETABLE HOT GARLIC SAUCE\rALOO WADIYAN CURRY\rDAL HARIYALI\rJEERA RICE\rJAGGERY, ACHAR\rCHOCOLATE ICE CREAM"
                 },
                 {
                     "top": 0.0,
@@ -369,39 +367,39 @@
             ],
             [
                 {
-                    "top": 606.0181,
-                    "left": 42.48645,
-                    "width": 43.50952911376953,
-                    "height": 91.798828125,
+                    "top": 577.4519,
+                    "left": 37.95297,
+                    "width": 42.05051040649414,
+                    "height": 88.58673095703125,
                     "text": "S\rA\rT\rU\rR\rD\rA\rY"
                 },
                 {
-                    "top": 606.0181,
-                    "left": 85.99598,
-                    "width": 97.8940200805664,
-                    "height": 91.798828125,
-                    "text": "MUESLI\rEGG BHURJI\rBESAN CHILLA\rMINT CHUTNEY\rBREAD, BUTTER, JAM\rKINOO, BANANA\rMILK- HOT \u0026 COLD, TEA\rCOFFEE, PORRIDGE\rBOURNVITA"
+                    "top": 577.4519,
+                    "left": 80.00348,
+                    "width": 98.66650390625,
+                    "height": 88.58673095703125,
+                    "text": "MUESLI\rFRIED EGG\rVERMICELLI UPMA\rTOMATO CHUTNEY\rBREAD, BUTTER, JAM\rCUT PAPAYA, BANANA\rMILK- HOT \u0026 COLD, TEA\rCOFFEE, PORRIDGE\rBOURNVITA"
                 },
                 {
-                    "top": 606.0181,
-                    "left": 183.89,
-                    "width": 150.86000061035156,
-                    "height": 91.798828125,
-                    "text": "GREEN SALAD\rITALIAN PASTA SALAD\rGUTTA CURRY\rTAWA VEGETABLE\rSAUTE BEANS\rPLAIN RICE\rTAWA ROTI\rACHAR, PAPAD\rRICE KHEER"
+                    "top": 577.4519,
+                    "left": 178.66998,
+                    "width": 146.05999755859375,
+                    "height": 88.58673095703125,
+                    "text": "GREEN SALAD\rNIMBO PANI\rTINDA MASALA\rKASHMIRI DUM ALOO\rRAJMA MASALA\rJEERA RICE\rTAWA ROTI\rJAGGERY, ACHAR, PAPAD\rJALEBI"
                 },
                 {
-                    "top": 606.0181,
-                    "left": 334.75,
-                    "width": 95.6400146484375,
-                    "height": 91.798828125,
-                    "text": "BANANA CAKE SLICE\rTEA, COFFEE"
+                    "top": 577.4519,
+                    "left": 324.72998,
+                    "width": 102.36001586914062,
+                    "height": 88.58673095703125,
+                    "text": "CHEESE TOAST\rTEA, COFFEE"
                 },
                 {
-                    "top": 606.0181,
-                    "left": 430.39,
-                    "width": 121.838623046875,
-                    "height": 91.798828125,
-                    "text": "GREEN SALAD\rLACCHA ONION\rCHICKEN HANDI  MASALA\rKADHAI PANEER\rBLACK MALKA DAL\rPLAIN  RICE\rTAWA ROTI\rJAGGERY, ACHAR"
+                    "top": 577.4519,
+                    "left": 427.09,
+                    "width": 129.72488403320312,
+                    "height": 88.58673095703125,
+                    "text": "GREEN SALAD\rACHARI ONION\rCHICKEN BIRYANI\rSOYA PANEER BIRYANI\rMIRCHI KA SALAN\rBURANI RAITA\rTAWA ROTI\rJAGGERY, ACHAR"
                 },
                 {
                     "top": 0.0,
@@ -420,39 +418,90 @@
             ],
             [
                 {
-                    "top": 697.81696,
-                    "left": 42.48645,
-                    "width": 43.50952911376953,
-                    "height": 92.09564208984375,
+                    "top": 666.03864,
+                    "left": 37.95297,
+                    "width": 42.05051040649414,
+                    "height": 88.8114013671875,
                     "text": "S\rU\rN\rD\rA\rY"
                 },
                 {
-                    "top": 697.81696,
-                    "left": 85.99598,
-                    "width": 97.8940200805664,
-                    "height": 92.09564208984375,
-                    "text": "CHOCOS\rFRIED EGG\rSUJI UPMA\rTOMATO CHUTNEY\rBREAD, BUTTER, JAM\rAPPLE, BANANA\rMILK- HOT \u0026 COLD, TEA\rCOFFEE, PORRIDGE\rBOURNVITA"
+                    "top": 666.03864,
+                    "left": 80.00348,
+                    "width": 98.66650390625,
+                    "height": 88.8114013671875,
+                    "text": "CORN FLAKES\rMASALA OMELETTE\rPEANUT ONION POHA*\rMINT CHUTNEY\rBREAD, BUTTER, JAM\rKINOO, BANANA\rMILK- HOT \u0026 COLD, TEA\rCOFFEE, PORRIDGE\rBOURNVITA"
                 },
                 {
-                    "top": 697.81696,
-                    "left": 183.89,
-                    "width": 150.86000061035156,
-                    "height": 92.09564208984375,
-                    "text": "GREEN SALAD\rALOO CHAAT\rKALA CHAANA\rJEERA ALOO\rPLAIN RICE\rPOORI\rACHAR, PAPAD\rBOONDI RAITA"
+                    "top": 666.03864,
+                    "left": 178.66998,
+                    "width": 146.05999755859375,
+                    "height": 88.8114013671875,
+                    "text": "GREEN SALAD\rLACCHA ONION\rALOO MASALA\rPASTA ALFREDO\rKALA CHANA\rPLAIN RICE\rBOONDI RAITA\rBEDMI POORI\rJAGGERY, ACHAR, PAPAD"
                 },
                 {
-                    "top": 697.81696,
-                    "left": 334.75,
-                    "width": 95.6400146484375,
-                    "height": 92.09564208984375,
-                    "text": "GOL GAPPE\rTEA, COFFEE"
+                    "top": 666.03864,
+                    "left": 324.72998,
+                    "width": 102.36001586914062,
+                    "height": 88.8114013671875,
+                    "text": "FRENCH FRIES\rTEA, COFFEE"
                 },
                 {
-                    "top": 697.81696,
-                    "left": 430.39,
-                    "width": 121.838623046875,
-                    "height": 92.09564208984375,
-                    "text": "GREEN SALAD\rRUSSIAN SALAD\rSOYA CHAAP MASALA\rLAUKI CHANA\rARHAR DAL\rPLAIN  RICE\rTAWA ROTI\rJAGGERY, ACHAR\rMOONG DAL HALWA"
+                    "top": 666.03864,
+                    "left": 427.09,
+                    "width": 129.72488403320312,
+                    "height": 88.8114013671875,
+                    "text": "GREEN SALAD\rTHREE BEANS SALAD\rLAUKI CHANA(DRY)\rSOYA CHAAP CURRY\rDAL FRY\rPLAIN  RICE\rTAWA ROTI\rJAGGERY, ACHAR\rBOONDI LADOO"
+                },
+                {
+                    "top": 0.0,
+                    "left": 0.0,
+                    "width": 0.0,
+                    "height": 0.0,
+                    "text": ""
+                },
+                {
+                    "top": 0.0,
+                    "left": 0.0,
+                    "width": 0.0,
+                    "height": 0.0,
+                    "text": ""
+                }
+            ],
+            [
+                {
+                    "top": 754.85004,
+                    "left": 37.95297,
+                    "width": 518.8619384765625,
+                    "height": 13.2860107421875,
+                    "text": "Dishes marked with asterisk and bold contains peanut. Users allergic to peanut must avoid."
+                },
+                {
+                    "top": 0.0,
+                    "left": 0.0,
+                    "width": 0.0,
+                    "height": 0.0,
+                    "text": ""
+                },
+                {
+                    "top": 0.0,
+                    "left": 0.0,
+                    "width": 0.0,
+                    "height": 0.0,
+                    "text": ""
+                },
+                {
+                    "top": 0.0,
+                    "left": 0.0,
+                    "width": 0.0,
+                    "height": 0.0,
+                    "text": ""
+                },
+                {
+                    "top": 0.0,
+                    "left": 0.0,
+                    "width": 0.0,
+                    "height": 0.0,
+                    "text": ""
                 },
                 {
                     "top": 0.0,
